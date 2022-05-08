@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(223, 217, 217);
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+  font-family: sans-serif;
+}
+
+.section-header {
+  color: white;
+  border: solid black;
+  background-image: linear-gradient(
+      rgba(120, 113, 113, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(imgs/cliffs.jpg);
+  width: 100%;
+  height: 50vh;
+}
+
+.header {
+  font-size: 3.4rem;
+  position: relative;
+  font-weight: 500;
+  top: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background: linear-gradient(#ab713d, #111);
+  width: 100%;
+  height: 100%;
+}
+
+.section-skills {
+  position: relative;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+}
+
+.skills-heading {
+  position: relative;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.skills-list {
+  position: relative;
+  left: 25%;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.section-projects {
+  position: relative;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+}
+
+.projects-heading {
+  position: relative;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.section-contact {
+  position: relative;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+}
+
+.contact-heading {
+  position: relative;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  font-size: 3rem;
+  color: #111;
+}
+
+.contact-form-input {
+  position: relative;
+  width: 20rem;
+  color: #111;
+}
+
+.form-submit-btn {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 10rem;
+  color: #111;
+}
+
+/* html {
+  /* font-size: 62.5%; 
+} */
+
+/* Common Styles */
+
+/* Page BG */
+/* .page-bg {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(imgs/cliffs.jpg) center no-repeat;
+  background-size: cover;
+} */
