@@ -2,66 +2,128 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: rgb(223, 217, 217);
   text-decoration: none;
   list-style-type: none;
   outline: none;
   font-family: sans-serif;
+  color: rgb(227, 219, 219);
 }
 
-.section-header {
-  color: white;
-  border: solid black;
-  background-image: linear-gradient(
-      rgba(120, 113, 113, 0.7),
-      rgba(0, 0, 0, 0.7)
-    ),
-    url(imgs/cliffs.jpg);
-  width: 100%;
-  height: 50vh;
-}
-
-.header {
-  font-size: 3.4rem;
-  position: relative;
-  font-weight: 500;
-  top: 50%;
+body {
+  background-color: #2a2828;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.container {
-  background: linear-gradient(#ab713d, #111);
+.section-intro {
+  position: relative;
+  margin-top: 10%;
+  right: 5rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgb(29, 94, 39);
+  width: 65%;
+  border-radius: 5px;
+}
+
+.section-intro img {
+  border-radius: 5px;
+  width: 60%;
+  /* height: 50vh; */
+  max-height: 100%;
+}
+/* 
+@keyframes img {
+  0% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+} */
+
+.section-intro .text-container {
+  flex: 1 1 200px;
+  max-height: 100%;
+  margin: 2rem;
+  font-size: 1.2rem;
+}
+
+.container-content {
+  font-size: 1.8rem;
+  background: darkblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 100%;
 }
 
-.section-skills {
+.skills {
+  background-color: #2a2828;
+  padding: 2rem;
+  width: 100%;
   position: relative;
-  padding-bottom: 5rem;
-  padding-top: 5rem;
-}
-
-.skills-heading {
-  position: relative;
-  font-size: 3rem;
   display: flex;
-  justify-content: center;
-}
-
-.skills-list {
-  position: relative;
-  left: 25%;
-  font-size: 2rem;
-  text-decoration: underline;
-}
-
-.section-projects {
-  position: relative;
+  flex-direction: column;
+  align-items: center;
   padding-bottom: 5rem;
   padding-top: 5rem;
 }
 
+.skills ul {
+  display: flex;
+  flex-direction: row;
+  margin: 1px;
+}
+
+.skills li {
+  padding: 1rem;
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 2rem;
+}
+
+.projects {
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.projects ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 3rem;
+}
+.projects li {
+  display: inline-block;
+  background-color: #2a2828;
+  display: flex;
+  width: 18rem;
+  height: 18rem;
+}
+
+/*
 .projects-heading {
   position: relative;
   font-size: 3rem;
@@ -102,20 +164,4 @@
   justify-content: center;
   width: 10rem;
   color: #111;
-}
-
-/* html {
-  /* font-size: 62.5%; 
-} */
-
-/* Common Styles */
-
-/* Page BG */
-/* .page-bg {
-  position: fixed;
-  width: 100%;
-  height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(imgs/cliffs.jpg) center no-repeat;
-  background-size: cover;
-} */
+} */ ;
