@@ -18,6 +18,31 @@ body {
   justify-content: space-between;
 }
 
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.5rem;
+  background-color: rgb(29, 94, 39);
+  opacity: 0.8;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin: 10px 10px 10px 10px;
+}
+
+nav ul li {
+  display: flex;
+  flex-direction: row;
+  background-color: #2a2828;
+  border-radius: 10px;
+  margin: 5px 40px 5px 0px;
+  padding: 10px;
+}
+
 .section-intro {
   position: relative;
   margin-top: 10%;
@@ -100,7 +125,7 @@ body {
 }
 
 .projects {
-  background-color: blueviolet;
+  background-color: #2a2828;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -117,27 +142,41 @@ body {
 }
 .projects li {
   display: inline-block;
-  background-color: #2a2828;
+  background-color: #f7f1f1;
   display: flex;
   width: 18rem;
   height: 18rem;
 }
 
-/*
-.projects-heading {
+.contact {
+  background-color: #2a2828;
   position: relative;
-  font-size: 3rem;
-  display: flex;
-  justify-content: center;
-}
-
-.section-contact {
-  position: relative;
-  padding-bottom: 5rem;
+  padding-bottom: 1rem;
   padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
-.contact-heading {
+.contact input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  font-size: 1rem;
+  width: 20rem;
+  background-color: rgb(29, 94, 39);
+}
+
+.contact-text-area {
+  position: relative;
+  width: 30rem;
+}
+
+/* .contact-heading {
   position: relative;
   font-size: 3rem;
   display: flex;
@@ -156,12 +195,13 @@ body {
   position: relative;
   width: 20rem;
   color: #111;
-}
+} */
 
 .form-submit-btn {
   position: relative;
   display: flex;
   justify-content: center;
   width: 10rem;
-  color: #111;
-} */ ;
+  background-color: rgb(29, 94, 39);
+  color: rgb(227, 219, 219);
+}
