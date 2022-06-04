@@ -19,7 +19,7 @@ body {
 }
 
 nav {
-  width: 120%;
+  width: 100%;
   display: flex;
   justify-content: flex-end;
   font-size: 1.5rem;
@@ -154,6 +154,7 @@ nav ul li button {
 .projects ul {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
   padding: 3rem;
