@@ -15,9 +15,9 @@
   <body>
     <nav>
       <ul>
-        <li>Tools</li>
-        <li>Projects</li>
-        <li>Connect</li>
+        <li><button class="btn-tools">Tools</button></li>
+        <li><button class="btn-projects">Projects</button></li>
+        <li><button class="btn-connect">Connect</button></li>
       </ul>
     </nav>
     <section class="section-intro">
@@ -31,7 +31,7 @@
     </section>
 
     <div class="container-content">
-      <section class="skills">
+      <section class="skills" id="section-1">
         <h1>My Toolbox</h1>
         <ul>
           <li>
@@ -66,22 +66,33 @@
         </ul>
       </section>
 
-      <section class="projects">
+      <section class="projects" id="section-2">
         <h2>Projects</h2>
         <ul>
           <li>
-            <img src="./imgs/tic-tac-toe-app.png" alt="tic-tac-toe" />
+            <a href="https://akperrine.github.io/Tic-Tac-Toe/" target="_blank">
+              <img src="./imgs/tic-tac-toe-app.png" alt="tic-tac-toe"
+            /></a>
           </li>
           <li>
-            <img src="./imgs/sorted-list-app.png" alt="sorted list" />
+            <a
+              href="https://akperrine.github.io/Sortable-List/"
+              target="_blank"
+            >
+              <img src="./imgs/sorted-list-app.png" alt="sorted list"
+            /></a>
           </li>
           <li>
-            <img src="./imgs/recipie-app.png" alt="recipie finder" />
+            <img
+              src="./imgs/recipie-app.png"
+              title="Comming Soon! Currently under Construction"
+              alt="recipie finder"
+            />
           </li>
         </ul>
       </section>
 
-      <section class="contact">
+      <section class="contact" id="section-3">
         <h1>Let's Connect</h1>
         <form>
           <input
